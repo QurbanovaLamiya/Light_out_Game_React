@@ -1,13 +1,15 @@
-import { Component, Fragment } from 'react';
-import './App.css';
+import { Component, Fragment } from "react";
+import Board from "./components/Board";
 
-class App extends Component{
-  render(){
-    return(
+import "./App.css";
+
+class App extends Component {
+  render() {
+    return (
       <Fragment>
-        
+        <Board />
       </Fragment>
-    )
+    );
   }
 }
 
